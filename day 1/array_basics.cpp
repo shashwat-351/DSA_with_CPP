@@ -1,4 +1,3 @@
-
 // ARRAY: collection of similar datatype..
 #include <iostream>
 using namespace std;
@@ -14,8 +13,8 @@ int main()
         cin>>arr[i];
     }
     //output for arr
-    for(int i=0;i<len;i++)
+    for(int j:arr) // for-each loop
     {
-        cout<<arr[i]<<endl;
+        cout<<j<<endl;
     }
 }
